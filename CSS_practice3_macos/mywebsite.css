@@ -5,7 +5,7 @@
 body {
   font-family: Arial;
   padding: 10px;
-  background: #f1f1f1;
+  background: #b4cdef;
 }
 
 /* Header/Blog Title */
@@ -22,7 +22,7 @@ h1 {
 /* Style the top navigation bar */
 nav {
   overflow: hidden;
-  background-color: #333;
+  background-color: #3a5a8c;
 }
 
 /* Style the topnav links */
@@ -43,7 +43,7 @@ li a:hover {
 
 /* Create two unequal columns that floats next to each other */
 /* Left column */
-section {   
+section {
   float: left;
   width: 75%;
 }
@@ -52,7 +52,7 @@ section {
 aside {
   float: right;
   width: 25%;
-  background-color: #f1f1f1;
+  background-color: #b4cdef;
   padding-left: 20px;
 }
 
@@ -70,20 +70,19 @@ aside {
   margin-top: 20px;
 }
 
-
-
 /* Footer */
 footer {
   padding: 20px;
   text-align: center;
   background: #ddd;
   margin-top: 20px;
-  clear : both;
+  clear: both;
 }
 
 /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 800px) {
-  section, aside {   
+  section,
+  aside {
     width: 100%;
     padding: 0;
   }
@@ -95,4 +94,17 @@ footer {
     float: none;
     width: 100%;
   }
+}
+
+footer {
+  background-color: #3a5a8c;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+footer p {
+  margin: 0;
+  font-size: 0.9em;
 }
